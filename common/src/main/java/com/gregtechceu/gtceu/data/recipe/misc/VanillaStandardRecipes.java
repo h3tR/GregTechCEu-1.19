@@ -869,6 +869,8 @@ public class VanillaStandardRecipes {
 
         ASSEMBLER_RECIPES.recipeBuilder("sea_lantern").EUt(4).duration(40).inputItems(new ItemStack(Items.PRISMARINE_CRYSTALS, 5)).inputItems(new ItemStack(Items.PRISMARINE_SHARD, 4)).outputItems(new ItemStack(Blocks.SEA_LANTERN)).save(provider);
 
+        ALLOY_SMELTER_RECIPES.recipeBuilder("netherite_ingot").EUt(4).duration(40).inputItems(new ItemStack(Items.NETHERITE_SCRAP, 4),new ItemStack(Items.GOLD_INGOT,4)).outputItems(new ItemStack(Items.NETHERITE_INGOT)).save(provider);
+
         ALLOY_SMELTER_RECIPES.recipeBuilder("red_nether_bricks").EUt(4).duration(40).inputItems(new ItemStack(Items.NETHER_BRICK, 2)).inputItems(new ItemStack(Items.NETHER_WART, 2)).outputItems(new ItemStack(Blocks.RED_NETHER_BRICKS)).save(provider);
 
         ASSEMBLER_RECIPES.recipeBuilder("nether_brick_fence").duration(100).EUt(4).circuitMeta(3).inputItems(new ItemStack(Blocks.NETHER_BRICKS)).outputItems(new ItemStack(Blocks.NETHER_BRICK_FENCE)).save(provider);

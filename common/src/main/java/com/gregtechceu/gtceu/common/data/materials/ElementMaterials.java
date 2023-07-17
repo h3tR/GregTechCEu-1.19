@@ -334,7 +334,7 @@ public class ElementMaterials {
         Iridium = new Material.Builder("iridium")
                 .ingot(3).fluid()
                 .color(0xA1E4E4).iconSet(METALLIC)
-                .appendFlags(EXT2_METAL, GENERATE_FINE_WIRE, GENERATE_GEAR)
+                .appendFlags(EXT2_METAL, GENERATE_FINE_WIRE, GENERATE_GEAR, GENERATE_FRAME)
                 .element(GTElements.Ir)
                 .rotorStats(7.0f, 3.0f, 2560)
                 .fluidPipeProperties(3398, 250, true, false, true, false)
